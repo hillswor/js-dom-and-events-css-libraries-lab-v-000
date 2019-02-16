@@ -5,10 +5,49 @@
     <title>HTML/CSS Lab</title>
     <link rel="stylesheet" href="https://unpkg.com/basscss@8.0.1/css/basscss.min.css">
     <style>
+      .muted{
+        color: #999;
+      }
+
+      img{
+        width: 100px;
+        height: 100px;
+      }
+
+      body{
+        width: 100%;
+      }
     </style>
   </head>
 
-  <body>
+  <body class="flex flex-column items-center">
+      <div style="width: 600px">
+        <div class="flex mt1 border-bottom">
+          <img class="flex-none mr1 mt2 mb1" src="https://pbs.twimg.com/profile_images/1044786302443372544/3bIbMHgS_400x400.jpg" alt="">
+          <div class="content">
+            <p class="title-info"><strong>Kim Kardashian West</strong><span class="muted"> @KimKardashian 16 Feb 2019</span></p>
+            <p>I said you will see when I have kids, they will have the same nose as me.</p>
+          </div>
+        </div>
+
+        <div class="flex mt1 border-bottom">
+          <img class="flex-none mr1 mt2 mb1" src="https://pbs.twimg.com/profile_images/1051914952192057344/xwZDe7zt_400x400.jpg" alt="">
+          <div class="content">
+            <p class="title-info"><strong>Hillary Clinton</strong><span class="muted"> @HillaryClinton 16 Feb 2019</span></p>
+            <p>Democracy should mean free and fair access to the ballot box. But in America, voting rights are under attack. I’m honored to have been invited to join the 54th Bridge Crossing Jubilee in Selma, Alabama on March 3rd to march for voting rights with @liftourvote. #liftourvote2020</p>
+          </div>
+        </div>
+
+
+          <div class="flex mt1 border-bottom">
+            <img class="flex-none mr1 mt2 mb1" src="https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_400x400.jpg" alt="">
+            <div class="content">
+              <p class="title-info"><strong>Donald J Trump</strong><span class="muted"> @realDonaldTrump 16 Feb 2019</span></p>
+              <p>Great job by law enforcement in Aurora, Illinois. Heartfelt condolences to all of the victims and their families. America is with you!</p>
+            </div>
+          </div>
+
+      </div>
 
   </body>
 
